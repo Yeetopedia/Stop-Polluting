@@ -44,7 +44,7 @@ function draw() {
 function keyPressed(){
 
 	if(keyDown("space")){
-	  Matter.Body.applyForce(paperob.body,paperob.body.position,{x:30,y:90});
+	  Matter.Body.applyForce(paperob.body,paperob.body.position,{x:800,y:100});
 	
 	}
 	}
